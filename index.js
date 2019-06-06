@@ -1,5 +1,5 @@
 export default {
-  extends: ['eslint-config-airbnb-base'],
+  extends: ['eslint-config-airbnb', 'plugin:jest/recommended'],
   env: {
     browser: true,
     node: true
@@ -18,7 +18,11 @@ export default {
         object: true,
         array: false
       }
-    ]
+    ],
+    'react/jsx-filename-extension': 0,
+    'react/jsx-one-expression-per-line': 0,
+    'react/prefer-stateless-function': 0,
+    'react/forbid-prop-types': 0
   },
   settings: {
     'import/resolver': {
