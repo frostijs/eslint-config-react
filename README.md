@@ -1,3 +1,3 @@
 # Frosti - ESLint React
 
-ESLint base used by frosti react boilerplate.
+ESLint base configuration used by [Frosti React boilerplate](https://github.com/frostijs/cli).

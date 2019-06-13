@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.3
+
+- Cleanup dependencies
+
 ## 0.1.2
 
 - Remove `dist` from git
